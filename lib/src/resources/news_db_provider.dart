@@ -9,7 +9,7 @@ class NewsDbProvider {
   Database db;
   final String _TABLE_NAME = 'Items';
 
-  init() async {
+  void init() async {
     String path = await getDbPath();
 
     db = await openDatabase(
@@ -17,7 +17,7 @@ class NewsDbProvider {
       version: 1,
       onCreate: (Database newsDb, int version) {
         newsDb.execute("""
-          CREATE TABLE  $TABLE_NAME
+          CREATE TABLE  $_TABLE_NAME
             (
               id INTEGER PRIMARY KEY,
               type TEXT,
@@ -43,9 +43,9 @@ class NewsDbProvider {
     return join(directory.path, "items.db");
   }
 
-  fetchItem(int id) async {
+  Future<ItemModel> fetchItem(int id) async {
     final maps = await db.query(
-      TABLE_NAME,
+      _TABLE_NAME,
       columns: null,
       where: "id = ?",
       whereArgs: [id],
@@ -58,7 +58,7 @@ class NewsDbProvider {
     return null;
   }
 
-  addItem(ItemModel item){
-    return db.insert(TABLE_NAME, item.toMap());
+  Future<int> addItem(ItemModel item){
+    return db.insert(_TABLE_NAME, item.toMap());
   }
 }
