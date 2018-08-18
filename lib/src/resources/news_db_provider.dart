@@ -7,7 +7,7 @@ import '../models/item_model.dart';
 
 class NewsDbProvider {
   Database db;
-  final String TABLE_NAME = 'Items';
+  final String _TABLE_NAME = 'Items';
 
   init() async {
     String path = await getDbPath();
