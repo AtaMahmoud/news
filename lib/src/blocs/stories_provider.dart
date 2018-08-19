@@ -16,5 +16,5 @@ class StoriesProvider extends InheritedWidget {
             as StoriesProvider)
         .bloc;
   }
-  
+
 }
