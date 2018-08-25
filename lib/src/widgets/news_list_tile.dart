@@ -10,6 +10,8 @@ class NewsListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final storiesBloc=StoriesProvider.of(context);
+    storiesBloc.fetchItem(itemId);
+
     return StreamBuilder(
       stream: storiesBloc.items,
       builder: (context,AsyncSnapshot<Map<int,Future<ItemModel>>>snapShot){
@@ -24,10 +26,26 @@ class NewsListTile extends StatelessWidget {
              return Text('Stram Still loading item $itemId');
             }
 
-            return Text(itemSnapShot.data.title);
+            return buildTile(itemSnapShot.data);
           },
         );
       },
+    );
+  }
+
+  Widget buildTile(ItemModel item){
+    return Card(
+      child: ListTile(
+        title: Text(item.title),
+        subtitle: Text('${item.score} votes'),
+        trailing: Column(
+          children: <Widget>[
+            Icon(Icons.comment),
+            Text('${item.descendants}')
+          ],
+        ),
+      ),
+      margin: EdgeInsets.all(8.0),
     );
   }
 }

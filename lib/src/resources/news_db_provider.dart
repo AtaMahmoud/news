@@ -6,12 +6,13 @@ import 'dart:async';
 import '../models/item_model.dart';
 import 'repository.dart';
 
-class NewsDbProvider implements Source,Cache {
+class NewsDbProvider implements Source, Cache {
   Database db;
 
-  NewsDbProvider(){
+  NewsDbProvider() {
     init();
   }
+
   final String _TABLE_NAME = 'Items';
 
   void init() async {
@@ -56,15 +57,19 @@ class NewsDbProvider implements Source,Cache {
       whereArgs: [id],
     );
 
-    if(maps.length>0){
+    if (maps.length > 0) {
       return ItemModel.fromDb(maps.first);
     }
 
     return null;
   }
 
-  Future<int> addItem(ItemModel item){
-    return db.insert(_TABLE_NAME, item.toMap());
+  Future<int> addItem(ItemModel item) {
+    return db.insert(
+      _TABLE_NAME,
+      item.toMap(),
+      conflictAlgorithm: ConflictAlgorithm.ignore,
+    );
   }
 
   @override
@@ -74,4 +79,4 @@ class NewsDbProvider implements Source,Cache {
   }
 }
 
-final newsDbProvider=new NewsDbProvider();
+final newsDbProvider = new NewsDbProvider();
