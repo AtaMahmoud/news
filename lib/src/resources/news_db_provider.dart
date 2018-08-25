@@ -77,6 +77,10 @@ class NewsDbProvider implements Source, Cache {
     // TODO: implement fetchTopIds
     return null;
   }
+
+  Future<int> clear(){
+    return db.delete(_TABLE_NAME);
+  }
 }
 
 final newsDbProvider = new NewsDbProvider();
