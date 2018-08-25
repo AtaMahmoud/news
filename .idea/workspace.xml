@@ -4,14 +4,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2a0bb13-9fe9-40db-9893-14e75f396eca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/models/item_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/item_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/resources/news_db_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/resources/news_db_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/screens/news_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/screens/news_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" afterDir="false" />
-    </list>
+    <list default="true" id="b2a0bb13-9fe9-40db-9893-14e75f396eca" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,14 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news_list_tile.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news_list_tile.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loading_card.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/src/widgets/loading_card.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -120,6 +122,8 @@
         <option value="$PROJECT_DIR$/lib/src/resources/news_db_provider.dart" />
         <option value="$PROJECT_DIR$/lib/src/models/item_model.dart" />
         <option value="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" />
+        <option value="$PROJECT_DIR$/lib/src/widgets/loading_container.dart" />
+        <option value="$PROJECT_DIR$/lib/src/widgets/loading_card.dart" />
       </list>
     </option>
   </component>
@@ -334,7 +338,7 @@
       <workItem from="1534715447212" duration="11115000" />
       <workItem from="1535014728526" duration="4652000" />
       <workItem from="1535054369160" duration="662000" />
-      <workItem from="1535226949681" duration="4390000" />
+      <workItem from="1535226949681" duration="5075000" />
     </task>
     <servers />
   </component>
@@ -362,7 +366,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51870000" />
+    <option name="totallyTimeSpent" value="52555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1362" y="0" width="1200" height="832" extended-state="0" />
@@ -840,11 +844,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/widgets/loading_card.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>

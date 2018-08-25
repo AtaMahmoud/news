@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'loading_card.dart';
 import '../models/item_model.dart';
 import '../blocs/stories_provider.dart';
 import 'dart:async';
@@ -16,14 +17,14 @@ class NewsListTile extends StatelessWidget {
       stream: storiesBloc.items,
       builder: (context,AsyncSnapshot<Map<int,Future<ItemModel>>>snapShot){
         if(!snapShot.hasData){
-          return Text('Stram Still loading');
+          return LoadingCard();
         }
 
         return FutureBuilder(
           future: snapShot.data[itemId],
           builder: (context,AsyncSnapshot<ItemModel>itemSnapShot){
             if(!itemSnapShot.hasData){
-             return Text('Stram Still loading item $itemId');
+             return LoadingCard();
             }
 
             return buildTile(itemSnapShot.data);
