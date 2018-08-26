@@ -19,16 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="comment_bloc.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="comment_bloc.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/src/blocs/comment_bloc.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="400">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment_provider.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="comment_provider.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/blocs/comment_provider.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -72,8 +75,8 @@
         <option value="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" />
         <option value="$PROJECT_DIR$/lib/src/screens/news_detail.dart" />
         <option value="$PROJECT_DIR$/lib/src/app.dart" />
-        <option value="$PROJECT_DIR$/lib/src/blocs/comment_bloc.dart" />
         <option value="$PROJECT_DIR$/lib/src/blocs/comment_provider.dart" />
+        <option value="$PROJECT_DIR$/lib/src/blocs/comment_bloc.dart" />
       </list>
     </option>
   </component>
@@ -289,7 +292,7 @@
       <workItem from="1535014728526" duration="4652000" />
       <workItem from="1535054369160" duration="662000" />
       <workItem from="1535226949681" duration="8054000" />
-      <workItem from="1535289155572" duration="6147000" />
+      <workItem from="1535289155572" duration="8359000" />
     </task>
     <servers />
   </component>
@@ -317,7 +320,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61681000" />
+    <option name="totallyTimeSpent" value="63893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1362" y="0" width="1200" height="832" extended-state="0" />
@@ -342,7 +345,7 @@
       <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.3275862" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3275862" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
@@ -350,7 +353,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3218391" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Captures" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25701755" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25701755" />
       <window_info anchor="right" id="Graphical Navigator" order="10" type="SLIDING" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -821,19 +824,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/blocs/comment_bloc.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/blocs/comment_provider.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/blocs/comment_bloc.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
