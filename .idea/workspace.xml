@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b2a0bb13-9fe9-40db-9893-14e75f396eca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/resources/news_db_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/resources/news_db_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/resources/repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/resources/repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/screens/news_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/screens/news_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="repository.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/resources/repository.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="1160">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -40,7 +38,7 @@
       <file leaf-file-name="news_db_provider.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/resources/news_db_provider.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="203">
               <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -49,26 +47,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stories_bloc.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart">
+      <file leaf-file-name="news_list_tile.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="refresh.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/src/widgets/refresh.dart">
+      <file leaf-file-name="app.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/app.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="380">
+              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_detail.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/src/screens/news_detail.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -90,20 +97,21 @@
       <list>
         <option value="$PROJECT_DIR$/test/src/resources/news_api_provider_test.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/src/app.dart" />
         <option value="$PROJECT_DIR$/lib/src/blocs/stories_provider.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/src/widgets/news_lisr_tile.dart" />
         <option value="$PROJECT_DIR$/lib/src/resources/news_api_provider.dart" />
         <option value="$PROJECT_DIR$/lib/src/models/item_model.dart" />
         <option value="$PROJECT_DIR$/lib/src/widgets/loading_container.dart" />
-        <option value="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" />
         <option value="$PROJECT_DIR$/lib/src/widgets/loading_card.dart" />
         <option value="$PROJECT_DIR$/lib/src/screens/news_list.dart" />
         <option value="$PROJECT_DIR$/lib/src/resources/news_db_provider.dart" />
         <option value="$PROJECT_DIR$/lib/src/resources/repository.dart" />
         <option value="$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart" />
         <option value="$PROJECT_DIR$/lib/src/widgets/refresh.dart" />
+        <option value="$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart" />
+        <option value="$PROJECT_DIR$/lib/src/app.dart" />
+        <option value="$PROJECT_DIR$/lib/src/screens/news_detail.dart" />
       </list>
     </option>
   </component>
@@ -132,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +198,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -318,7 +326,8 @@
       <workItem from="1534715447212" duration="11115000" />
       <workItem from="1535014728526" duration="4652000" />
       <workItem from="1535054369160" duration="662000" />
-      <workItem from="1535226949681" duration="7434000" />
+      <workItem from="1535226949681" duration="8054000" />
+      <workItem from="1535289155572" duration="5058000" />
     </task>
     <servers />
   </component>
@@ -346,7 +355,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54914000" />
+    <option name="totallyTimeSpent" value="60592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1362" y="0" width="1200" height="832" extended-state="0" />
@@ -371,6 +380,7 @@
       <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.3275862" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
@@ -388,7 +398,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32805756" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
@@ -396,6 +405,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.3299712" />
       <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32374102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -410,7 +420,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32853025" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="UML Diagrams" order="4" type="SLIDING" />
       <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" />
       <window_info anchor="right" id="Flutter Outline" order="5" />
@@ -422,7 +431,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22104332" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -444,6 +453,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/widgets/refresh.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/resources/repository.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -689,20 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/app.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Flutter/flutter/packages/flutter/lib/src/widgets/framework.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -766,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/widgets/loading_card.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -792,8 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/resources/repository.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="1160">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -807,19 +815,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/resources/news_db_provider.dart">
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state relative-caret-position="220">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/widgets/refresh.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/blocs/stories_bloc.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="320">
           <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -827,13 +842,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/widgets/refresh.dart">
+    <entry file="file://$PROJECT_DIR$/lib/src/resources/news_db_provider.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="203">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/widgets/news_list_tile.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/app.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/screens/news_detail.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
