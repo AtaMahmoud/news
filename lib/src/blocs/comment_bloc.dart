@@ -10,23 +10,25 @@ class CommentsBloc {
   Observable<Map<int, Future<ItemModel>>> get itemsWithComment =>
       _commentsOutPut.stream;
 
-  Function(int) get fetchItemWithComments=>_commentsFetcher.sink.add;
+  Function(int) get fetchItemWithComments => _commentsFetcher.sink.add;
 
-  CommentsBloc(){
+  CommentsBloc() {
     _commentsFetcher.transform(_commentsTransformer()).pipe(_commentsOutPut);
   }
 
-  var _repository=new Repository();
-  _commentsTransformer(){
-    return ScanStreamTransformer<int,Map<int,Future<ItemModel>>>(
-        (cache,int id,index){
-          cache[id]=_repository.fetchItem(id);
-          cache[id].then((ItemModel item){
-            item.kids.forEach((kidId)=>fetchItemWithComments(kidId));
-          });
-        },
-      <int,Future<ItemModel>>{}
-    );
+  var _repository = new Repository();
+
+  _commentsTransformer() {
+    return ScanStreamTransformer<int, Map<int, Future<ItemModel>>>(
+        (cache, int id, index) {
+          print('**********kid#$index*********************');
+      cache[id] = _repository.fetchItem(id);
+      cache[id].then((ItemModel item) {
+        item.kids.forEach((kidId) => fetchItemWithComments(kidId));
+      });
+
+      return cache;
+    }, <int, Future<ItemModel>>{});
   }
 
   dispose() {
