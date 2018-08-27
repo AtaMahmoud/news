@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import '../models/item_model.dart';
+import '../widgets/loading_card.dart';
 
 class Comment extends StatelessWidget {
   final int itemId;
@@ -14,11 +15,15 @@ class Comment extends StatelessWidget {
         future: itemMap[itemId],
         builder: (context, AsyncSnapshot<ItemModel> snapshot) {
           if (!snapshot.hasData) {
-            return Text('Still loading comment');
+            return LoadingCard();
           }
-
+          final item=snapshot.data;
           final children = <Widget>[
-            Text(snapshot.data.text),
+            ListTile(
+              title: Text(item.text),
+              subtitle:item.by==''?Text('Deleted'): Text(item.by),
+            ),
+            Divider(),
           ];
           snapshot.data.kids.forEach((kidId) {
             children.add(Comment(itemId: itemId, itemMap: itemMap,));
