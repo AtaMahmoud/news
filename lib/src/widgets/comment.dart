@@ -25,7 +25,7 @@ class Comment extends StatelessWidget {
                 right: 16.0,
                 left: (depth + 1) * 16.0,
               ),
-              title: Text(item.text),
+              title: buildText(item),
               subtitle: item.by == '' ? Text('Deleted') : Text(item.by),
             ),
             Divider(),
@@ -41,5 +41,15 @@ class Comment extends StatelessWidget {
             children: children,
           );
         });
+  }
+
+  Widget buildText(ItemModel item) {
+    final text = item.text
+        .replaceAll('&#x27', "'")
+        .replaceAll('<p>', '\n\n')
+        .replaceAll('</p>', '')
+        .replaceAll('&quot;', '"');
+
+    return Text(text);
   }
 }
