@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../blocs/comment_provider.dart';
 import 'dart:async';
 import '../models/item_model.dart';
+import '../widgets/comment.dart';
 
 class NewsDetail extends StatelessWidget {
   final int itemId;
@@ -35,23 +36,42 @@ class NewsDetail extends StatelessWidget {
               return Text('Loading');
             }
 
-            return buildTitle(itemSnapShot.data);
+            return buildList(itemSnapShot.data, snapshot.data);
           },
         );
       },
     );
   }
 
-  Widget buildTitle(ItemModel item){
+  Widget buildList(ItemModel item, Map<int, Future<ItemModel>> itemMap) {
+    final children = <Widget>[];
+    children.add(buildTitle(item));
+
+    final commentsList = item.kids.map((kidId) {
+      return Comment(
+        itemId: kidId,
+        itemMap: itemMap,
+      );
+    }).toList();
+
+    children.addAll(commentsList);
+    return ListView(
+      children:children,
+    );
+  }
+
+  Widget buildTitle(ItemModel item) {
     return Container(
       alignment: Alignment.topCenter,
       margin: EdgeInsets.all(10.0),
-      child: Text(item.title,
-      textAlign: TextAlign.center,
-      style: TextStyle(
-        fontSize: 20.0,
-        fontWeight: FontWeight.bold,
-      ),),
+      child: Text(
+        item.title,
+        textAlign: TextAlign.center,
+        style: TextStyle(
+          fontSize: 20.0,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
     );
   }
 }
