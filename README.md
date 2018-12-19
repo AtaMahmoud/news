@@ -1,8 +1,4 @@
 # news
 
-A new Flutter project.
+A Flutter news reader app built using hacker new api .
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
